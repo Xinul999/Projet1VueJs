@@ -1,31 +1,15 @@
 <script setup lang="ts">
+import Header from "@/_components/header/Header.vue";
 </script>
 
 <template>
-<header>
-  <nav>
-    <ul class="navigation">
-      <li><RouterLink to="/">Mes produits habituels</RouterLink></li>
-      <li><RouterLink to="/ma-liste-du-jour">Ma liste du jour</RouterLink></li>
-      <li><RouterLink to="/modifier-mes-produits-habituels">Modifier mes produits habituels</RouterLink></li>
-    </ul>
-  </nav>
-</header>
+  <Header />
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <style scoped>
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-a{
-  text-decoration: none;
-  color: black;
-}
-.navigation {
-  display: flex;
-  justify-content: space-between;
-}
+
 
 </style>

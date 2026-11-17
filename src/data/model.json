@@ -1,0 +1,9 @@
+[
+  { "id": 1, "nom": "Pain" },
+  { "id": 2, "nom": "Beurre" },
+  { "id": 3, "nom": "Yaourts" },
+  { "id": 4, "nom": "Œufs" },
+  { "id": 5, "nom": "Pommes de terre" },
+  { "id": 6, "nom": "Carottes" },
+  { "id": 7, "nom": "Salade" }
+]
